@@ -31,10 +31,10 @@ total_value = 'roboto-medium ng-binding'
 # aos_dashboard_page_title =
 # aos_add_new_user_page_title =
 # ------------------------Fake date section------------------------------
-first_name = fake.first_name()
-last_name = fake.last_name()
+first_name = fake.first_name()[:8]
+last_name = fake.last_name()[:8]
 middle_name = fake.first_name()
-full_name = f'{first_name} {last_name} {{fake.pyint(11,2999)}}'
+# full_name = f'{first_name} {last_name} {{fake.pyint(11,2999)}}'
 new_username = f'{first_name}{last_name}'.lower()
 new_password = fake.password()
 email = f'{new_username}@{fake.free_email_domain()}'
