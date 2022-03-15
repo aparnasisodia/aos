@@ -14,6 +14,4 @@ class aosAppPostiveTestCases(unittest.TestCase):
         method.homepage_texts()
         method.top_menu()
         method.contact_us_form()
-        method.delete_user()
-        method.logger('deleted')
         method.tearDown()
